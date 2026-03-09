@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: "docs"
+  render:
+    - QMDs/index.qmd
+website:
+  title: "REWRITE - Cadiz Bay Time Series"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+format:
+  html:
+    theme:
+      - sandstone
+    css: styles.css
+    toc: true
+
+editor: source
+
+

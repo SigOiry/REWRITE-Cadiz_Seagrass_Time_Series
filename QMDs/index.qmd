@@ -1,0 +1,12 @@
+---
+title: "-REWRITE- Cadiz Bay Time Series"
+author: "Simon Oiry"
+---
+
+This page describes the methods and results used to generate a time series of seagrass distribution and cover in Cádiz Bay, Spain, using Sentinel-2 satellite observations. Seagrass presence was first identified using the [ICE CREAMS V1.3](https://github.com/BedeFfinian/ICE_CREAMS) classifier. Seagrass percent cover was then estimated from the relationship between NDVI and seagrass cover ([Davies et al., 2026](https://doi.org/10.1016/j.rse.2025.115116), [Zoffoli et al., 2020](https://doi.org/10.1016/j.rse.2020.112020)).
+
+# Material and Methods
+
+## Study site
+
+The inner Cadiz Bay is a shallow water body located in South-Western Spain (36°29'52.9"N; 6°12'49.7"W), with an area of \~36 km2, a semi-diurnal tidal regime and maximum depth of \~3.5 m relative to the local mean sea level (MSL). The intertidal zone covers 60% of the inner bay surface ([Sanchez De Lamadrid Rey and Muñoz Pérez, 1994](https://granatensis.ugr.es/discovery/fulldisplay/alma991002675199704990/34CBUA_UGR:VU1)). A significant part of this surface is covered by Zostera noltei meadows, sediments colonised by MPB and occasionally by green macroalgae ([Garcia-Robledo et al., 2012](https://doi.org/10.1111/j.1758-2229.2012.00335.x); [Lara et al., 2012](https://www.academia.edu/51030345/Interacción_entre_las_praderas_de_angiospermas_marinas_y_la_hidrodinámica_en_el_Parque_Natural_Bahía_de_Cádiz_implicaciones_ecológicas)). The infralittoral region is dominated by Caulerpa prolifera and to a lesser extent Cymodocea nodosa meadows ([Egea et al., 2019](https://doi.org/10.1371/journal.pone.0210386); [Gómez Ordoñez, 2008](http://hdl.handle.net/10498/14121); [Haro et al., 2020](https://doi.org/10.3389/fmars.2020.00039); [Lara et al., 2016](https://doi.org/10.3354/meps11913)). In the current study, only the intertidal area of the bay will be considered, using an hand drown intertidal mask
